@@ -18,8 +18,8 @@ function distanceTravelledInFeet(num1, num2){
   return
 }
 
-function calculatesFarePrice(){
-  
-  
+function calculatesFarePrice(numBlocks){
+  if (numBlocks<=400){
+  return 
 }
 }
