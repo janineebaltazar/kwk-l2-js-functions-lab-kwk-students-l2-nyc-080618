@@ -13,10 +13,12 @@ function distanceFromHqInFeet(numBlocks){
   return distanceFromHqInBlocks(numBlocks) * 264;
 }
 
-function distanceTravelledInFeet(num1, num2){
- if ((num2-num1) * 264 < 0){
-  return num1-num2
-}else{ 
+function distanceTravelledInFeet(start, end){
+ if (end>start){
+  return (end-start) *264;
+}else{
+  return (start-end)*264;
+}
 }
 
 function calculatesFarePrice(numBlocks){
