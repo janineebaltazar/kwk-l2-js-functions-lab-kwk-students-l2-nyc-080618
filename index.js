@@ -15,4 +15,7 @@ function distanceFromHqInFeet(numBlocks){
 
 function distanceTravelledInFeet(num1, num2){
  return ((num2-num1) * 264);
+ if ( numBlocks > 42){
+    return numBlocks - 42;
+  }
 }
