@@ -14,5 +14,5 @@ function distanceFromHqInFeet(numBlocks){
 }
 
 function distanceTravelledInFeet(num1, num2){
- return ((num2-34) * 264);
+ return ((num2-num1) * 264);
 }
