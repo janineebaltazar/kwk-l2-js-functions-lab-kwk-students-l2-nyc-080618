@@ -8,3 +8,7 @@ function distanceFromHqInBlocks(numBlocks){
 }
 
 distanceFromHqInBlocks(10);
+
+function distanceFromHqInFeet(numBlocks){
+  
+}
