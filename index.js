@@ -4,4 +4,4 @@ function distanceFromHqInBlocks(numBlocks){
   return result;
 }
 
-distanceFromHqInBlocks();
+distanceFromHqInBlocks(10);
