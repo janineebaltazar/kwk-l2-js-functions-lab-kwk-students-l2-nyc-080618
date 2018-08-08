@@ -30,6 +30,6 @@ function calculatesFarePrice(start,destination){
     return distanceTravelledInFeet *2}
   }
   else(){
-    return "cannot"
+    return "cannot travel that far";
   }
 calculatesFarePrice();
