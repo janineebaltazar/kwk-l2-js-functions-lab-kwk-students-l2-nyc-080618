@@ -3,3 +3,5 @@ function distanceFromHqInBlocks(numBlocks){
   var result = 42 - numBlocks;
   return result;
 }
+
+distanceFromHqInBlocks();
